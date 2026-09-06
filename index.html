@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>HAITI — Haitian Association of Interpreters and Translators International</title>
+
+<meta name="description" content="The Haitian Association of Interpreters and Translators International (HAITI) unites and empowers Haitian language professionals worldwide. Join the registry, access certification, and add your voice to our advocacy." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://haitinet.org/" />
+<meta property="og:title" content="HAITI — Haitian Association of Interpreters and Translators International" />
+<meta property="og:description" content="Uniting the Voice of Haitian Linguists Worldwide. Professional recognition, certification, and advocacy for Haitian interpreters and translators." />
+<meta property="og:image" content="https://haitinet.org/og-haiti.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:site_name" content="HAITI" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="HAITI — Haitian Association of Interpreters and Translators International" />
+<meta name="twitter:description" content="Uniting the Voice of Haitian Linguists Worldwide." />
+<meta name="twitter:image" content="https://haitinet.org/og-haiti.jpg" />
+
+<link rel="icon" type="image/png" href="favicon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --navy:#0d2a75;
+  --navy-2:#113694;
+  --navy-deep:#081c53;
+  --blue:#0659b5;
+  --gold:#c09303;
+  --gold-2:#e0ae1a;
+  --white:#fff;
+  --off:#f5f7fc;
+  --line:#e3e8f4;
+  --gray:#5f6880;
+  --dark:#101728;
+  --max:1180px;
+}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',system-ui,sans-serif;color:var(--dark);background:var(--white);-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 32px}
+.serif{font-family:'Source Serif 4',Georgia,serif}
+
+/* ---------- nav ---------- */
+nav{position:sticky;top:0;z-index:100;background:var(--navy);border-bottom:1px solid rgba(255,255,255,.08)}
+.nav-in{max-width:var(--max);margin:0 auto;padding:0 32px;height:74px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.brand{display:flex;align-items:center;gap:13px;text-decoration:none}
+.brand img{width:44px;height:44px;object-fit:contain;background:#fff;border-radius:50%;padding:5px}
+.brand-txt{font-family:'Source Serif 4',serif;font-size:22px;font-weight:700;color:#fff;line-height:1;letter-spacing:.02em}
+.brand-txt span{display:block;font-family:'Inter',sans-serif;font-size:10px;font-weight:500;color:var(--gold-2);letter-spacing:.09em;text-transform:uppercase;margin-top:5px}
+.nav-links{display:flex;align-items:center;gap:30px;list-style:none}
+.nav-links a{color:rgba(255,255,255,.82);text-decoration:none;font-size:14px;font-weight:500;transition:color .2s}
+.nav-links a:hover{color:var(--gold-2)}
+.btn-login{background:var(--gold);color:var(--navy-deep)!important;padding:9px 20px;border-radius:3px;font-weight:700;font-size:14px}
+.btn-login:hover{background:var(--gold-2)}
+.nav-toggle{display:none;background:none;border:0;color:#fff;font-size:24px;cursor:pointer;padding:6px}
+
+/* ---------- hero ---------- */
+.hero{position:relative;background:linear-gradient(120deg,var(--navy-deep) 0%,var(--navy) 48%,var(--navy-2) 100%);overflow:hidden;border-bottom:4px solid var(--gold)}
+.hero-mark{position:absolute;right:-90px;top:50%;transform:translateY(-50%);width:640px;opacity:.10;pointer-events:none}
+.hero-in{position:relative;z-index:2;max-width:var(--max);margin:0 auto;padding:104px 32px 96px}
+.eyebrow{display:inline-block;color:var(--gold-2);font-size:11.5px;font-weight:600;letter-spacing:.15em;text-transform:uppercase;margin-bottom:26px}
+.hero h1{font-family:'Source Serif 4',serif;font-size:clamp(34px,5vw,60px);font-weight:700;color:#fff;line-height:1.08;max-width:17ch;margin-bottom:26px}
+.hero h1 em{font-style:normal;color:var(--gold-2)}
+.hero p{color:rgba(255,255,255,.78);font-size:17px;line-height:1.75;max-width:52ch;margin-bottom:38px}
+.actions{display:flex;gap:14px;flex-wrap:wrap}
+.btn{display:inline-block;padding:15px 30px;border-radius:3px;font-size:15px;font-weight:700;text-decoration:none;transition:.18s}
+.btn-gold{background:var(--gold);color:var(--navy-deep)}
+.btn-gold:hover{background:var(--gold-2);transform:translateY(-1px)}
+.btn-outline{border:1.5px solid rgba(255,255,255,.45);color:#fff;font-weight:600}
+.btn-outline:hover{border-color:var(--gold-2);background:rgba(224,174,26,.1)}
+.btn-navy{background:var(--navy);color:#fff}
+.btn-navy:hover{background:var(--navy-2)}
+.btn-ghost{border:1.5px solid var(--navy);color:var(--navy);font-weight:600}
+.btn-ghost:hover{background:rgba(13,42,117,.07)}
+
+/* ---------- mission strip ---------- */
+.strip{background:var(--gold)}
+.strip-in{max-width:var(--max);margin:0 auto;padding:0 32px;display:grid;grid-template-columns:repeat(3,1fr)}
+.strip-item{padding:34px 30px;border-right:1px solid rgba(8,28,83,.16)}
+.strip-item:last-child{border-right:0}
+.strip-item h3{font-family:'Source Serif 4',serif;font-size:23px;font-weight:700;color:var(--navy-deep);margin-bottom:7px}
+.strip-item p{font-size:14px;line-height:1.6;color:rgba(8,28,83,.8)}
+
+/* ---------- sections ---------- */
+section{scroll-margin-top:74px}
+.pad{padding:96px 0}
+.tag{display:block;width:38px;height:3px;background:var(--gold);margin-bottom:22px}
+h2{font-family:'Source Serif 4',serif;font-size:clamp(27px,3.2vw,40px);font-weight:700;color:var(--navy);line-height:1.18;margin-bottom:20px}
+.lede{color:var(--gray);font-size:16.5px;line-height:1.8;margin-bottom:18px}
+.two{display:grid;grid-template-columns:1.05fr .95fr;gap:72px;align-items:center}
+
+.quote{background:var(--navy);border-left:4px solid var(--gold);padding:44px 40px;border-radius:2px}
+.quote p{font-family:'Source Serif 4',serif;font-size:20px;line-height:1.55;color:#fff;font-weight:600}
+.quote footer{margin-top:20px;font-family:'Inter',sans-serif;font-size:12px;letter-spacing:.09em;text-transform:uppercase;color:var(--gold-2);font-weight:600}
+
+/* ---------- benefits ---------- */
+.benefits{background:var(--off);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.head-c{text-align:center;max-width:640px;margin:0 auto 56px}
+.head-c .tag{margin-left:auto;margin-right:auto}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.card{background:#fff;border:1px solid var(--line);border-top:3px solid var(--gold);padding:34px 30px;border-radius:2px}
+.card .ico{width:44px;height:44px;border-radius:3px;background:var(--navy);display:flex;align-items:center;justify-content:center;margin-bottom:20px}
+.card .ico svg{width:21px;height:21px;stroke:var(--gold-2);fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.card h3{font-size:16.5px;font-weight:700;color:var(--navy);margin-bottom:9px}
+.card p{font-size:14.5px;line-height:1.65;color:var(--gray)}
+
+/* ---------- registry ---------- */
+.registry-box{margin-top:44px;border:1px solid var(--line);border-radius:3px;background:#fff;padding:52px 40px;text-align:center}
+.registry-box .rb-ico{width:52px;height:52px;margin:0 auto 20px;border-radius:50%;background:var(--off);border:1px solid var(--line);display:flex;align-items:center;justify-content:center}
+.registry-box .rb-ico svg{width:24px;height:24px;stroke:var(--navy);fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.registry-box h3{font-family:'Source Serif 4',serif;font-size:21px;color:var(--navy);margin-bottom:10px}
+.registry-box p{font-size:15px;color:var(--gray);line-height:1.7;max-width:52ch;margin:0 auto 26px}
+.reg-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:20px;text-align:left}
+.reg-card{border:1px solid var(--line);border-radius:3px;padding:22px}
+.reg-card .rc-name{font-weight:700;color:var(--navy);font-size:16px;margin-bottom:4px}
+.reg-card .rc-loc{font-size:13px;color:var(--gray);margin-bottom:12px}
+.rc-tags{display:flex;flex-wrap:wrap;gap:6px}
+.rc-tag{font-size:11.5px;font-weight:600;background:var(--off);border:1px solid var(--line);color:var(--navy);padding:4px 9px;border-radius:20px}
+
+/* ---------- join cta ---------- */
+.join{background:var(--gold);padding:88px 0;text-align:center}
+.join h2{color:var(--navy-deep);margin-bottom:14px}
+.join p{color:rgba(8,28,83,.78);font-size:17px;max-width:56ch;margin:0 auto 34px;line-height:1.7}
+.join .actions{justify-content:center}
+
+/* ---------- contact ---------- */
+.contact{background:var(--navy);color:#fff}
+.contact h2{color:#fff}
+.contact .lede{color:rgba(255,255,255,.68)}
+.c-items{display:flex;flex-direction:column;gap:22px}
+.c-item{display:flex;gap:15px;align-items:flex-start}
+.c-ico{width:40px;height:40px;flex-shrink:0;border-radius:3px;background:rgba(224,174,26,.14);border:1px solid rgba(224,174,26,.55);display:flex;align-items:center;justify-content:center}
+.c-ico svg{width:17px;height:17px;stroke:var(--gold-2);fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.c-label{font-size:10.5px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-2);margin-bottom:4px}
+.c-value{font-size:15.5px;color:rgba(255,255,255,.88);line-height:1.55}
+.c-value a{text-decoration:none}
+.c-value a:hover{color:var(--gold-2)}
+
+/* ---------- footer ---------- */
+footer.site{background:var(--navy-deep);padding:38px 0}
+.f-in{max-width:var(--max);margin:0 auto;padding:0 32px;display:flex;align-items:center;justify-content:space-between;gap:22px;flex-wrap:wrap}
+.f-brand{font-family:'Source Serif 4',serif;font-size:17px;font-weight:700;color:#fff}
+.f-brand span{display:block;font-family:'Inter',sans-serif;font-size:11.5px;font-weight:400;color:var(--gold-2);margin-top:3px}
+.f-links{display:flex;gap:22px;list-style:none;flex-wrap:wrap}
+.f-links a{color:rgba(255,255,255,.55);text-decoration:none;font-size:13px}
+.f-links a:hover{color:var(--gold-2)}
+.f-copy{font-size:12px;color:rgba(255,255,255,.32)}
+
+@media (max-width:920px){
+  .wrap,.nav-in,.strip-in,.f-in{padding-left:20px;padding-right:20px}
+  .nav-in{height:62px}
+  .nav-links{position:absolute;top:62px;left:0;right:0;background:var(--navy);flex-direction:column;align-items:stretch;gap:0;padding:8px 20px 18px;border-bottom:1px solid rgba(255,255,255,.1);display:none}
+  .nav-links.open{display:flex}
+  .nav-links li{padding:11px 0}
+  .btn-login{display:inline-block;text-align:center;margin-top:6px}
+  .nav-toggle{display:block}
+  .brand img{width:36px;height:36px}
+  .brand-txt{font-size:19px}
+  .hero-in{padding:64px 20px 60px}
+  .hero-mark{width:380px;right:-140px;opacity:.08}
+  .hero h1{max-width:100%}
+  .actions .btn{flex:1 1 auto;text-align:center}
+  .strip-in{grid-template-columns:1fr}
+  .strip-item{border-right:0;border-bottom:1px solid rgba(8,28,83,.16);padding:26px 0}
+  .strip-item:last-child{border-bottom:0}
+  .pad{padding:60px 0}
+  .two{grid-template-columns:1fr;gap:36px}
+  .cards{grid-template-columns:1fr}
+  .quote{padding:32px 26px}
+  .registry-box{padding:36px 22px}
+  .join{padding:60px 0}
+  .f-in{flex-direction:column;align-items:flex-start}
+}
+</style>
+</head>
+<body>
+
+<!-- ============================================================
+     CONFIG — update these two values if the AssocHub org slug changes.
+     Apply : https://assochub.vercel.app/apply/<slug>
+     Login : https://assochub.vercel.app/sign-in?org=<slug>
+     Current slug assumed: haiti
+     ============================================================ -->
+
+<nav>
+  <div class="nav-in">
+    <a class="brand" href="#top">
+      <img src="logo-mark.png" alt="HAITI logo" />
+      <span class="brand-txt">HAITI<span>Interpreters &amp; Translators</span></span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">&#9776;</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">Who We Are</a></li>
+      <li><a href="#mission">Mission</a></li>
+      <li><a href="#membership">Membership</a></li>
+      <li><a href="#registry">Registry</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a class="btn-login" href="https://assochub.vercel.app/sign-in?org=haiti">Member Login &#8594;</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <img class="hero-mark" src="logo-mark.png" alt="" aria-hidden="true" />
+  <div class="hero-in">
+    <span class="eyebrow">Haitian Association of Interpreters and Translators International</span>
+    <h1>Uniting the Voice of <em>Haitian Linguists</em> Worldwide</h1>
+    <p>The premier global organization dedicated to uniting and empowering Haitian language professionals — advancing standards, defending our interests, and carrying Haitian culture across every language barrier.</p>
+    <div class="actions">
+      <a class="btn btn-gold" href="https://assochub.vercel.app/apply/haiti">Apply for Membership</a>
+      <a class="btn btn-outline" href="#about">Learn More</a>
+    </div>
+  </div>
+</header>
+
+<div class="strip" id="mission">
+  <div class="strip-in">
+    <div class="strip-item">
+      <h3>Advance</h3>
+      <p>The highest professional standards in translation and interpretation within our field.</p>
+    </div>
+    <div class="strip-item">
+      <h3>Advocate</h3>
+      <p>Passionately for the rights, interests, and fair working conditions of our members.</p>
+    </div>
+    <div class="strip-item">
+      <h3>Provide</h3>
+      <p>A dynamic platform for collaboration, continuous development, and global partnership.</p>
+    </div>
+  </div>
+</div>
+
+<section class="pad" id="about">
+  <div class="wrap two">
+    <div>
+      <span class="tag"></span>
+      <h2>Who we are</h2>
+      <p class="lede">The Haitian Association of Interpreters and Translators International (HAITI) is the premier global organization dedicated to uniting and empowering Haitian language professionals worldwide.</p>
+      <p class="lede">We are built on the fundamental belief that interpreters and translators are vital architects of understanding. In a world rich with diversity yet divided by language barriers, our members are the crucial link that forges connection, fosters clarity, and promotes the vibrant tapestry of Haitian culture.</p>
+    </div>
+    <blockquote class="quote">
+      <p>&ldquo;HAITI is more than an association; we are a collective voice, a resource for excellence, and a home for those who are committed to the power of language and the pride of Haitian heritage.&rdquo;</p>
+      <footer>Haitian Association of Interpreters and Translators International</footer>
+    </blockquote>
+  </div>
+</section>
+
+<section class="pad benefits" id="membership">
+  <div class="wrap">
+    <div class="head-c">
+      <span class="tag"></span>
+      <h2>Why join HAITI</h2>
+      <p class="lede">Are you a Haitian interpreter or translator ready to connect, grow, and advocate for our profession? Membership gives you access to exclusive resources, certification programs, and a network dedicated to elevating your career.</p>
+    </div>
+    <div class="cards">
+      <article class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M12 15a6 6 0 100-12 6 6 0 000 12z"/><path d="M8.2 13.9L7 22l5-3 5 3-1.2-8.1"/></svg></div>
+        <h3>Professional Recognition</h3>
+        <p>Get listed in our exclusive registry of qualified and certified professionals, visible to clients and institutions seeking Haitian linguists worldwide.</p>
+      </article>
+      <article class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M3 7l9-4 9 4-9 4-9-4z"/><path d="M7 9.5V15c0 1.4 2.2 2.5 5 2.5s5-1.1 5-2.5V9.5"/><path d="M21 7v6"/></svg></div>
+        <h3>Career Advancement</h3>
+        <p>Access specialized training and HAITI certification programs built around the real demands of interpretation and translation practice.</p>
+      </article>
+      <article class="card">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M16 20v-1.5a3.5 3.5 0 00-3.5-3.5h-5A3.5 3.5 0 004 18.5V20"/><path d="M10 11.5a3.5 3.5 0 100-7 3.5 3.5 0 000 7z"/><path d="M20 20v-1.5a3.5 3.5 0 00-2.6-3.4"/><path d="M15 4.6a3.5 3.5 0 010 6.8"/></svg></div>
+        <h3>Community &amp; Advocacy</h3>
+        <p>Become part of a unified voice that defends your interests, promotes fair standards, and connects Haitian linguists across borders.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="pad" id="registry">
+  <div class="wrap">
+    <div class="head-c">
+      <span class="tag"></span>
+      <h2>The HAITI Registry</h2>
+      <p class="lede">A verified directory of qualified Haitian interpreters and translators — searchable by language pair, specialization, and location.</p>
+    </div>
+    <div id="registryContent">
+      <div class="registry-box">
+        <div class="rb-ico"><svg viewBox="0 0 24 24"><path d="M11 18a7 7 0 100-14 7 7 0 000 14z"/><path d="M20 20l-4.2-4.2"/></svg></div>
+        <h3>The registry opens with our founding members</h3>
+        <p>Listings go live as applications are reviewed and credentials verified. Apply now to be among the first professionals in the directory.</p>
+        <a class="btn btn-navy" href="https://assochub.vercel.app/apply/haiti">Apply to be listed</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="join">
+  <div class="wrap">
+    <h2>Join our growing network of qualified and certified professionals</h2>
+    <p>Take the first step toward professional recognition, specialized training, and a community that advocates for your work.</p>
+    <div class="actions">
+      <a class="btn btn-navy" href="https://assochub.vercel.app/apply/haiti">Join the Community</a>
+      <a class="btn btn-ghost" href="https://assochub.vercel.app/sign-in?org=haiti">Already a member? Sign in</a>
+    </div>
+  </div>
+</section>
+
+<section class="pad contact" id="contact">
+  <div class="wrap two">
+    <div>
+      <span class="tag"></span>
+      <h2>Contact us</h2>
+      <p class="lede">Questions about membership, certification, or partnership? Reach out and a member of the association will get back to you.</p>
+    </div>
+    <div class="c-items">
+      <!-- TODO: replace with HAITI's real contact details -->
+      <div class="c-item">
+        <div class="c-ico"><svg viewBox="0 0 24 24"><path d="M4 5h16v14H4z"/><path d="M4 6l8 6 8-6"/></svg></div>
+        <div>
+          <div class="c-label">Membership inquiries</div>
+          <div class="c-value"><a href="mailto:info@haitinet.org">info@haitinet.org</a></div>
+        </div>
+      </div>
+      <div class="c-item">
+        <div class="c-ico"><svg viewBox="0 0 24 24"><path d="M12 21s7-5.3 7-11a7 7 0 10-14 0c0 5.7 7 11 7 11z"/><path d="M12 12.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5z"/></svg></div>
+        <div>
+          <div class="c-label">Reach</div>
+          <div class="c-value">Serving Haitian language professionals worldwide</div>
+        </div>
+      </div>
+      <div class="c-item">
+        <div class="c-ico"><svg viewBox="0 0 24 24"><path d="M12 21a9 9 0 100-18 9 9 0 000 18z"/><path d="M3 12h18"/><path d="M12 3a14 14 0 010 18 14 14 0 010-18z"/></svg></div>
+        <div>
+          <div class="c-label">Member portal</div>
+          <div class="c-value"><a href="https://assochub.vercel.app/sign-in?org=haiti">Sign in to your account &#8594;</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="f-in">
+    <div class="f-brand">HAITI<span>Haitian Association of Interpreters and Translators International</span></div>
+    <ul class="f-links">
+      <li><a href="#about">Who We Are</a></li>
+      <li><a href="#membership">Membership</a></li>
+      <li><a href="#registry">Registry</a></li>
+      <li><a href="https://assochub.vercel.app/apply/haiti">Apply</a></li>
+      <li><a href="https://assochub.vercel.app/sign-in?org=haiti">Member Login</a></li>
+    </ul>
+    <div class="f-copy">&copy; <span id="yr">2026</span> HAITI. All rights reserved.</div>
+  </div>
+</footer>
+
+<script>
+document.getElementById('yr').textContent = new Date().getFullYear();
+
+var t = document.getElementById('navToggle'), l = document.getElementById('navLinks');
+t.addEventListener('click', function(){ l.classList.toggle('open'); });
+l.addEventListener('click', function(e){ if (e.target.tagName === 'A') l.classList.remove('open'); });
+
+/* ------------------------------------------------------------------
+   PUBLIC REGISTRY
+   Fill these in once the HAITI org exists in Supabase and a public,
+   read-only view of verified members is exposed through RLS.
+   The view must expose ONLY: display_name, city, country, languages,
+   specializations — never email, phone, address or documents, and only
+   rows where the member is verified AND opted into public listing.
+   ------------------------------------------------------------------ */
+var SUPA_URL = '';
+var SUPA_KEY = '';
+var ORG_ID   = '';
+var REGISTRY_VIEW = 'public_registry';
+
+function esc(s){ return String(s == null ? '' : s).replace(/[&<>"]/g, function(c){
+  return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+
+function renderRegistry(rows){
+  if (!rows || !rows.length) return;
+  var html = '<div class="reg-grid">';
+  for (var i = 0; i < rows.length; i++){
+    var r = rows[i];
+    var loc = [r.city, r.country].filter(Boolean).join(', ');
+    var tags = [].concat(r.languages || [], r.specializations || []);
+    html += '<div class="reg-card">';
+    html += '<div class="rc-name">' + esc(r.display_name) + '</div>';
+    if (loc) html += '<div class="rc-loc">' + esc(loc) + '</div>';
+    if (tags.length){
+      html += '<div class="rc-tags">';
+      for (var j = 0; j < tags.length; j++) html += '<span class="rc-tag">' + esc(tags[j]) + '</span>';
+      html += '</div>';
+    }
+    html += '</div>';
+  }
+  html += '</div>';
+  document.getElementById('registryContent').innerHTML = html;
+}
+
+if (SUPA_URL && SUPA_KEY && ORG_ID){
+  fetch(SUPA_URL + '/rest/v1/' + REGISTRY_VIEW + '?organization_id=eq.' + ORG_ID + '&order=display_name.asc', {
+    headers: { apikey: SUPA_KEY, Authorization: 'Bearer ' + SUPA_KEY }
+  })
+  .then(function(r){ return r.json(); })
+  .then(renderRegistry)
+  .catch(function(){ /* keep the default empty state */ });
+}
+</script>
+</body>
+</html>
